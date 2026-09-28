@@ -8,6 +8,9 @@
     --fss:#071b12;
     --hen: #8b4a2b;
 }
+html{
+    scroll-behavior: smooth;
+}
 hr{
     background-color: black;
     height: 4px;
@@ -244,10 +247,31 @@ button{
 .c-icon{
     width: 40px;
     height: 40px;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
     border-radius: 10px;    
     margin-right: 14px;
-    background-color: #0b2417;
+    background-color:rgba(255, 255, 255, 0.034);
+}
+.i1{
+    background: url(images/icons/phone.png);
+    background-color:rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.i2{
+    background: url(images/icons/whatsapp.png);
+    background-color:rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.i3{
+    background: url(images/icons/email.png);
+    background-color:rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
 }
 .c-info{
     font-size: 12px;
